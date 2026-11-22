@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Code and data for: Impact of atmospheric water vapor on the exchange of gases, especially O2"
+abstract: "Python code and output data for the Stefan-Maxwell calculations of O2, H2O, N2 and CO2 diffusion in a tube (respiratory and photosynthetic variants) supporting Figs. 2-3 and the numerical-modelling appendix of the associated manuscript."
+version: 1.0.0
+# Update date-released to the actual release date when the GitHub release is published.
+date-released: 2026-11-21
+license: BSD-3-Clause
+keywords:
+  - Stefan-Maxwell diffusion
+  - water vapor
+  - atmospheric oxygen
+  - dry-air mole fraction
+authors:
+  - family-names: Keeling
+    given-names: Ralph
+    affiliation: "Scripps Institution of Oceanography, University of California San Diego"
+# After creating the GitHub repository, add its URL here:
+# repository-code: "https://github.com/<user>/<repo>"
+# Add the repository DOI (e.g. from Zenodo) here after the first release:
+# doi: 10.5281/zenodo.XXXXXXX

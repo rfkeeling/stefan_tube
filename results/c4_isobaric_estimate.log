@@ -1,0 +1,20 @@
+F_O2 (uniform)         = 1.6313e-03 mol m-2 s-1
+F_H2O, outer / inner   = -4.7221e-04 / -1.4463e-05 mol m-2 s-1
+j_mass from O2/CO2     = -1.9592e-05 kg m-2 s-1
+j_mass, outer domain   = -2.8101e-05 kg m-2 s-1
+j_mass, inner domain   = -1.9853e-05 kg m-2 s-1   (inner/outer = 0.7065)
+rho = 1.1790 kg m-3, mu = 1.8371e-05 Pa s
+u, outer / inner       = 2.383e-05 / 1.684e-05 m s-1
+
+Pressure difference across the two domains (each of length L/2):
+       r   dp outer (Pa)   dp inner (Pa)   dp total (Pa)      dp / p
+   0.1mm       1.752e-02       1.237e-02       2.989e-02    2.95e-07
+   1.0mm       1.752e-04       1.237e-04       2.989e-04    2.95e-09
+  10.0mm       1.752e-06       1.237e-06       2.989e-06    2.95e-11
+
+Length dependence (j_mass x L should be constant, so dp is independent of L):
+   L (m)         F_O2      j_outer    j_outer*L      j_inner    j_inner*L  inner/outer
+    0.05   3.2626e-03  -5.6203e-05  -2.8101e-06  -3.9706e-05  -1.9853e-06       0.7065
+    0.10   1.6313e-03  -2.8101e-05  -2.8101e-06  -1.9853e-05  -1.9853e-06       0.7065
+    0.20   8.1566e-04  -1.4051e-05  -2.8101e-06  -9.9264e-06  -1.9853e-06       0.7065
+    0.40   4.0783e-04  -7.0254e-06  -2.8101e-06  -4.9632e-06  -1.9853e-06       0.7065

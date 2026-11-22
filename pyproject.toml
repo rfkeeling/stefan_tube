@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stefan-tube"
+version = "1.0.0"
+description = "Stefan-Maxwell multicomponent diffusion in a tube with O2, H2O, N2 and CO2: code supporting Figs. 2-3 and Appendix C of Keeling et al."
+requires-python = ">=3.11"
+license = { text = "BSD-3-Clause" }
+dependencies = ["numpy", "scipy", "matplotlib", "threadpoolctl"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

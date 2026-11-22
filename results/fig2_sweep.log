@@ -1,0 +1,4 @@
+z_pivot/L = 0.1: done [8 s]
+z_pivot/L = 0.5: done [26 s]
+z_pivot/L = 1.0: done [38 s]
+saved data/fig2_o2_flux_vs_humidity.csv (flux in mol m-2 s-1)

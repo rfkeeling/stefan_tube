@@ -1,0 +1,9 @@
+saved figures/fig2_o2_flux_vs_humidity.png
+
+Summary numbers (ambient x_H2O from 0 to x_sat = 0.0313):
+  base case, z_pivot/L = 0.5               F_O2: 1.6349 -> 1.6235 mmol m-2 s-1, drop = 0.70%
+  z_pivot/L = 0.1                          F_O2: 1.6273 -> 1.6235 mmol m-2 s-1, drop = 0.23%
+  z_pivot/L = 1.0                          F_O2: 1.6443 -> 1.6235 mmol m-2 s-1, drop = 1.26%
+  no cross-flux drag, z_pivot/L = 0.5      F_O2: 1.6715 -> 1.6245 mmol m-2 s-1, drop = 2.81%
+  simple Fick's-law scaling (proportional to x_O2): drop = 3.13%
+  30% relative-humidity swing, scaled from the z_pivot/L = 1.0 sensitivity: 0.38%

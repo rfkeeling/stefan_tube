@@ -1,0 +1,4 @@
+Full model:             F_O2 = 1.631318e-03 mol m-2 s-1   x_CO2(wall) = 0.24169
+No cross-flux drag, relaxed    3 t_diff: F_O2 = 1.656516e-03 mol m-2 s-1   x_CO2(wall) = 0.24542
+No cross-flux drag, relaxed    8 t_diff: F_O2 = 1.656515e-03 mol m-2 s-1   x_CO2(wall) = 0.24542
+No cross-flux drag, relaxed   15 t_diff: F_O2 = 1.656515e-03 mol m-2 s-1   x_CO2(wall) = 0.24542

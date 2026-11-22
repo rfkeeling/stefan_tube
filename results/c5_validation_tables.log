@@ -1,0 +1,28 @@
+
+==============================================================================
+N_grid = 61   (segments: 60, pivot at grid index 30)
+==============================================================================
+
+C5.1 Steady-state internal consistency
+  max |F_N2| over all segments = 4.46e-17 mol m-2 s-1
+
+C3.4 Flux uniformity at the end of the run (spread = (max - min)/mean)
+  F_O2 (all segments)      1.29e-12 %
+  F_CO2 (all segments)     1.34e-12 %
+  F_H2O (outer segments)   5.51e-13 %
+  F_H2O inner segments: -1.470e-05 to -1.423e-05 (not uniform: wetted wall is a distributed source)
+
+C2.3 Wall O2
+  x_O2(wall) = 2.064e-05  (< 1e-4: True); F_O2/(k_rxn dz) = 2.064e-05
+
+Table C2. Validation against BVP solutions
+  Quantity                                   Time-marching             BVP   Rel. diff.
+  F_O2, outer domain (mol m-2 s-1)            1.631318e-03    1.631318e-03     1.36e-08
+  x_CO2 at pivot (outer domain, solved)           0.120409        0.120409     6.71e-08
+  F_O2, inner domain (mol m-2 s-1)            1.631318e-03    1.631649e-03     2.03e-04
+  x_CO2(wall), inner domain                       0.241688        0.241712     1.01e-04
+
+Table C3. No-pivot cross check
+  Quantity                                   Time-marching             BVP   Rel. diff.
+  F_O2 (mol m-2 s-1)                          1.637676e-03    1.637842e-03     1.02e-04
+  x_CO2(wall)                                     0.241397        0.241422     1.01e-04

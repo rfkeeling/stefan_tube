@@ -1,0 +1,7 @@
+saved figures/fig3_pO2_vs_humidity.png
+saved data/fig3_pO2_vs_humidity.csv
+
+Full model: pO2 at the wall falls 0.09% as ambient x_H2O rises from 0.000 to 0.0313
+Severinghaus closed form: falls 0.09%
+Offset, full model minus closed form: 0.00933 kPa at zero humidity, 0.00910 kPa at the humid end (spread 0.236 Pa)
+Pivot independence: max |x_O2(wall; pivot 0.25 or 0.75) - x_O2(wall; pivot 0.50)| = 8.16e-08

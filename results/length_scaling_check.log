@@ -1,0 +1,14 @@
+Respiratory tube: flux x L (should be constant)
+   L (m)        F_O2 L       F_CO2 L   F_H2O,outer L
+    0.05  1.631318e-04 -1.631318e-04   -4.722131e-05
+    0.10  1.631318e-04 -1.631318e-04   -4.722131e-05
+    0.20  1.631318e-04 -1.631318e-04   -4.722131e-05
+    0.40  1.631318e-04 -1.631318e-04   -4.722131e-05
+max relative spread across L: [0. 0. 0.]
+
+Photosynthesis tube: x_O2 at the wall (should be constant)
+    0.05  x_O2(wall) = 2.030063269e-01
+    0.10  x_O2(wall) = 2.030063269e-01
+    0.20  x_O2(wall) = 2.030063269e-01
+    0.40  x_O2(wall) = 2.030063269e-01
+max relative spread across L: 0.00e+00

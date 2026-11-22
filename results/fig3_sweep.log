@@ -1,0 +1,4 @@
+z_pivot/L = 0.25: done [9 s]
+z_pivot/L = 0.5: done [19 s]
+z_pivot/L = 0.75: done [29 s]
+saved data/fig3_photosynthesis_wall_o2.csv
