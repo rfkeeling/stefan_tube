@@ -15,5 +15,4 @@ authors:
     given-names: Ralph
     affiliation: "Scripps Institution of Oceanography, University of California San Diego"
 repository-code: "https://github.com/rfkeeling/stefan_tube"
-# Add the repository DOI (e.g. from Zenodo) here after the first release:
-# doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.24453634
